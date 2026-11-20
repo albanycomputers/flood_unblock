@@ -9,6 +9,7 @@ First release of the Backdrop port.
 - Password reset (per account and per IP) and current-password flood events.
 - "Block lifts" and "Last attempt" columns.
 - "Recently unblocked" list on the admin page: the last 10 unblocks, who did them and when (needs Database logging).
+- GitHub Actions workflow: PHP_CodeSniffer on the lines each pull request changes (backdrop-ops/gha).
 
 ### Changed
 - Only attempts inside their time window are counted, as core does; lapsed entries awaiting cron are no longer shown as blocked.
